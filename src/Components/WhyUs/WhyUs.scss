@@ -1,0 +1,33 @@
+.whyus {
+    display: flex;
+    justify-content: space-around;
+    background: #252C33;
+
+    .whyus-left {
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+        img {
+            border-radius: 25px;
+        }
+    }
+
+    .whyus-right {
+        width: 30%;
+        padding-top: 5%;
+
+        h1 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            color: #D3AF37;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            color: #D3AF37;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.specialPurchase {
+    background: url(../../assets/img/specialPurchase.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .specialPurchase-wrapper {
+        background: linear-gradient(90deg, rgba(205, 250, 253, 0.75) 0%, rgba(253, 253, 217, 0) 100%);
+
+        .specialPurchase-text-wrapper {
+            width: 80%;
+            margin: auto;
+            padding-top: 5%;
+
+            h1 {
+                width: 40%;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 55px;
+                color: #252C33;
+            }
+
+            h2 {
+                width: 40%;
+                padding-top: 5%;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 35px;
+                color: #252C33;
+            }
+
+            p {
+                padding-top: 5%;
+                padding-bottom: 5%;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                color: #252C33;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}

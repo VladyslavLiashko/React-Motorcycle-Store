@@ -1,0 +1,49 @@
+.ourBlog {
+  background: url(../../assets/img/MotorcyclesMenu.png);
+  padding-top: 3%;
+}
+.ourBlog .blog-comments {
+  width: 80%;
+  background-color: #fff;
+  margin: auto;
+}
+.ourBlog .add-comment {
+  background-color: #252C33;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+.ourBlog .add-comment h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #D3AF37;
+  text-align: center;
+}
+.ourBlog .add-comment form {
+  height: 3vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ourBlog .add-comment form #comment-inp {
+  height: 100%;
+  width: 50%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #616161;
+  border: none;
+}
+.ourBlog .add-comment form #comment-btn {
+  background: #D3AF37;
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  width: 9%;
+}/*# sourceMappingURL=Blog.css.map */

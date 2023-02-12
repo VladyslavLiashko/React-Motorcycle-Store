@@ -1,0 +1,25 @@
+.comment {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #252C33;
+
+    .comment-text-block {
+        margin-left: 5%;
+        h1 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            color: #252C33;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: #252C33;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "Header": {
+        "h1": "two wheelers",
+        "link1": "Home",
+        "link2": "Motorcycles",
+        "link3": "Our Blog",
+        "link4": "Contact Us",
+        "btn": "Login"
+    },
+    "Main": {
+        "HomePage": {
+            "h1": "Find your dream motorcycle here!",
+            "p": "We have 100+ collections of new and used motorcycles from big names such as Honda, Kawasaki, Yamaha, Ducati, etc. We will give the best price you can get and great quality motorcycle.",
+            "link": "Let s find one"
+        },
+        "SpecialPurchase": {
+            "h1": "GET READY FOR YOUR SUMMER RIDE",
+            "h2": "Save yourself up to 20% off on your purchase this summer",
+            "p": "Valid until August 31, 2022"
+        },
+        "WhyUs": {
+            "h1": "Why us?",
+            "p": "Since 2019, twowheelers sells hundreds of motorcycles that are hot for the roads for a reasonable price. From low engine size to bigger engine, we have all. Want to enjoy the sunset on the road or you’re just a speed freak who likes to race against your friends on the racetrack? You’ll find the motorcycle that suits you.",
+            "p2": "Our employees are the best on the field with many experiences on a motorcycle and tons of knowledge about it, so come visit us and do not hesitate to ask us questions. We welcome those who are new with a motorcycle and wonder how it feels to explore places on a motorcycle."
+        }
+    },
+    "Footer": {
+        "logo": "two wheelers",
+        "adress": "2005 Broken Dream Blvd Daytona Beach, FL 32122",
+        "phone": "(343)-7509-2453",
+        "link1": "New Inventory",
+        "link2": "Used Inventory",
+        "link3": "Service Center",
+        "link4": "Custom Parts",
+        "link5": "Riding Tips",
+        "link6": "Test Ride",
+        "link7": "Finance",
+        "link8": "Our Blog",
+        "link9": "About Us",
+        "link10": "Media",
+        "h1": "STORE HOURS",
+        "weekdays": "Weekdays: 8 AM - 3 PM",
+        "holidays": "Sunday/National Holiday: Closed",
+        "open": "Saturday: 8 AM - 2 PM",
+        "last": "©2023 Vladyslav Liashko. All rights reserved"
+    },
+    "Contacts": {
+        "h1": "Contact Us",
+        "adress": "2005 Broken Dream Blvd Daytona Beach, FL 32122",
+        "phone": "(343)-7509-2453",
+        "mail": "twowheelers@xmail.com"
+    }
+}

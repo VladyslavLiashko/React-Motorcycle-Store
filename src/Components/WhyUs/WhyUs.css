@@ -1,0 +1,28 @@
+.whyus {
+  display: flex;
+  justify-content: space-around;
+  background: #252C33;
+}
+.whyus .whyus-left {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.whyus .whyus-left img {
+  border-radius: 25px;
+}
+.whyus .whyus-right {
+  width: 30%;
+  padding-top: 5%;
+}
+.whyus .whyus-right h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #D3AF37;
+}
+.whyus .whyus-right p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #D3AF37;
+}/*# sourceMappingURL=WhyUs.css.map */

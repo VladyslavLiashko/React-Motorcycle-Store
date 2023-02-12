@@ -1,0 +1,46 @@
+.motorcycles {
+  background: url(../../assets/img/MotorcyclesMenu.png);
+  padding-top: 3%;
+}
+.motorcycles .motorcycles-items {
+  width: 80%;
+  background-color: #fff;
+  margin: auto;
+}
+.motorcycles .motorcycles-items .search-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #252C33;
+}
+.motorcycles .motorcycles-items .search-products h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #D3AF37;
+}
+.motorcycles .motorcycles-items .search-products form {
+  height: 3vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.motorcycles .motorcycles-items .search-products form input {
+  height: 100%;
+  width: 50%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #616161;
+  border: none;
+}
+.motorcycles .motorcycles-items .products-block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 3%;
+}/*# sourceMappingURL=Motorcycles.css.map */

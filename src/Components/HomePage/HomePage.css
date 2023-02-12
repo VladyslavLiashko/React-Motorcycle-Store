@@ -1,0 +1,39 @@
+.homepage {
+  background: url(../../assets/img/HomeBg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.homepage .homepage-wrapper {
+  width: 80%;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.homepage .homepage-wrapper h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  /* PGO500 */
+  color: #D3AF37;
+}
+.homepage .homepage-wrapper p {
+  padding-top: 5%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width: 30%;
+  /* PGO500 */
+  color: #D3AF37;
+}
+.homepage .homepage-wrapper div {
+  margin-top: 10%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  width: 30%;
+  /* PGO500 */
+  color: #D3AF37;
+  border-radius: 5px;
+}/*# sourceMappingURL=HomePage.css.map */
