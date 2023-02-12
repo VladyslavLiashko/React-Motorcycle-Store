@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/React-Motorcycle-Store/static/css/main.86426815.css",
+    "main.js": "/React-Motorcycle-Store/static/js/main.3704f0c4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-Motorcycle-Store/static/js/787.28cb0dcd.chunk.js",
+    "static/media/login-bg.png": "/React-Motorcycle-Store/static/media/login-bg.1a47f367347c60ca4fb0.png",
+    "static/media/specialPurchase.png": "/React-Motorcycle-Store/static/media/specialPurchase.9ac7098d194aae6f9a84.png",
+    "static/media/MotorcyclesMenu.png": "/React-Motorcycle-Store/static/media/MotorcyclesMenu.70a9f6613a60962424b6.png",
+    "static/media/HomeBg.png": "/React-Motorcycle-Store/static/media/HomeBg.f6812c3df737efefe2c9.png",
+    "static/media/whyUs.png": "/React-Motorcycle-Store/static/media/whyUs.dda1d7551a48e85202a8.png",
+    "static/media/YamahaR7.png": "/React-Motorcycle-Store/static/media/YamahaR7.cbdff9d4d498a0744ad1.png",
+    "static/media/Trumph.png": "/React-Motorcycle-Store/static/media/Trumph.bc0c591fe9d383d6e26c.png",
+    "static/media/Ducati.png": "/React-Motorcycle-Store/static/media/Ducati.25920a95249291d9e5be.png",
+    "static/media/Suzuki.png": "/React-Motorcycle-Store/static/media/Suzuki.41043da6a677905ec896.png",
+    "static/media/BMW.png": "/React-Motorcycle-Store/static/media/BMW.f3fc50428b98f00d4b00.png",
+    "static/media/Boneville.png": "/React-Motorcycle-Store/static/media/Boneville.255a4124faafe22a80b6.png",
+    "static/media/KawasakiNinja.png": "/React-Motorcycle-Store/static/media/KawasakiNinja.232e3bca75319092f676.png",
+    "static/media/comment6.png": "/React-Motorcycle-Store/static/media/comment6.260704e76edd6b192969.png",
+    "static/media/Honda.png": "/React-Motorcycle-Store/static/media/Honda.640ca90f5de8233ac250.png",
+    "static/media/comment5.png": "/React-Motorcycle-Store/static/media/comment5.d161d8501692e984474a.png",
+    "static/media/comment3.png": "/React-Motorcycle-Store/static/media/comment3.97c97ac7542fa4028d3b.png",
+    "static/media/Yamaha.png": "/React-Motorcycle-Store/static/media/Yamaha.5bdc7c3db92386e88de5.png",
+    "static/media/Harley.png": "/React-Motorcycle-Store/static/media/Harley.72ce93a7152a7106572a.png",
+    "static/media/comment2.png": "/React-Motorcycle-Store/static/media/comment2.4dd794204be4bd875df7.png",
+    "static/media/comment1.png": "/React-Motorcycle-Store/static/media/comment1.f2a0d4286951ccc68444.png",
+    "static/media/Davidson.png": "/React-Motorcycle-Store/static/media/Davidson.07cf75a177f2dc381cb1.png",
+    "static/media/comment4.png": "/React-Motorcycle-Store/static/media/comment4.072617d39a4445021223.png",
+    "index.html": "/React-Motorcycle-Store/index.html",
+    "main.86426815.css.map": "/React-Motorcycle-Store/static/css/main.86426815.css.map",
+    "main.3704f0c4.js.map": "/React-Motorcycle-Store/static/js/main.3704f0c4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-Motorcycle-Store/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86426815.css",
+    "static/js/main.3704f0c4.js"
+  ]
+}
