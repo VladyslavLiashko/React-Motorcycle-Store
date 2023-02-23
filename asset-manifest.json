@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Motorcycle-Store/static/css/main.86426815.css",
-    "main.js": "/React-Motorcycle-Store/static/js/main.3704f0c4.js",
+    "main.css": "/React-Motorcycle-Store/static/css/main.48891f58.css",
+    "main.js": "/React-Motorcycle-Store/static/js/main.e051c699.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-Motorcycle-Store/static/js/787.28cb0dcd.chunk.js",
     "static/media/login-bg.png": "/React-Motorcycle-Store/static/media/login-bg.1a47f367347c60ca4fb0.png",
     "static/media/specialPurchase.png": "/React-Motorcycle-Store/static/media/specialPurchase.9ac7098d194aae6f9a84.png",
@@ -24,14 +24,15 @@
     "static/media/comment2.png": "/React-Motorcycle-Store/static/media/comment2.4dd794204be4bd875df7.png",
     "static/media/comment1.png": "/React-Motorcycle-Store/static/media/comment1.f2a0d4286951ccc68444.png",
     "static/media/Davidson.png": "/React-Motorcycle-Store/static/media/Davidson.07cf75a177f2dc381cb1.png",
+    "static/media/shoppingCart.png": "/React-Motorcycle-Store/static/media/shoppingCart.680f3b59de79302da353.png",
     "static/media/comment4.png": "/React-Motorcycle-Store/static/media/comment4.072617d39a4445021223.png",
     "index.html": "/React-Motorcycle-Store/index.html",
-    "main.86426815.css.map": "/React-Motorcycle-Store/static/css/main.86426815.css.map",
-    "main.3704f0c4.js.map": "/React-Motorcycle-Store/static/js/main.3704f0c4.js.map",
+    "main.48891f58.css.map": "/React-Motorcycle-Store/static/css/main.48891f58.css.map",
+    "main.e051c699.js.map": "/React-Motorcycle-Store/static/js/main.e051c699.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-Motorcycle-Store/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86426815.css",
-    "static/js/main.3704f0c4.js"
+    "static/css/main.48891f58.css",
+    "static/js/main.e051c699.js"
   ]
 }
