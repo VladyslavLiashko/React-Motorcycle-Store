@@ -4,6 +4,7 @@ import instagram from "../../assets/img/instagram.png";
 import facebook from "../../assets/img/facebook.png";
 import linkedin from "../../assets/img/linkedin.png";
 import youtube from "../../assets/img/youtube.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = (props) => {
     return (
@@ -16,20 +17,20 @@ const Footer = (props) => {
                 </div>
                 <div className="footer-block">
                     <ul>
-                        <li>{props.data.link1}</li>
-                        <li>{props.data.link2}</li>
-                        <li>{props.data.link3}</li>
-                        <li>{props.data.link4}</li>
-                        <li>{props.data.link5}</li>
+                    <NavLink to="/Motorcycles" style={{textDecoration:'none'}}> <li>{props.data.link1}</li> </NavLink>
+                    <NavLink to="/Motorcycles" style={{textDecoration:'none'}}> <li>{props.data.link2}</li> </NavLink>
+                    <NavLink to="/Motorcycles" style={{textDecoration:'none'}}> <li>{props.data.link3}</li> </NavLink>
+                    <NavLink to="/Motorcycles" style={{textDecoration:'none'}}> <li>{props.data.link4}</li> </NavLink>
+                    <NavLink to="/Motorcycles" style={{textDecoration:'none'}}> <li>{props.data.link5}</li> </NavLink>
                     </ul>
                 </div>
                 <div className="footer-block">
                     <ul>
-                        <li>{props.data.link6}</li>
-                        <li>{props.data.link7}</li>
-                        <li>{props.data.link8}</li>
-                        <li>{props.data.link9}</li>
-                        <li>{props.data.link10}</li>
+                    <NavLink to="/Motorcycles" style={{textDecoration:'none'}}> <li>{props.data.link6}</li> </NavLink>
+                    <NavLink to="/Motorcycles" style={{textDecoration:'none'}}> <li>{props.data.link7}</li> </NavLink>
+                    <NavLink to="/Blog" style={{textDecoration:'none'}}><li>{props.data.link8}</li></NavLink> 
+                    <NavLink to="/Contacts" style={{textDecoration:'none'}}><li>{props.data.link9}</li></NavLink> 
+                    <NavLink to="/Contacts" style={{textDecoration:'none'}}><li>{props.data.link10}</li></NavLink>
                     </ul>
                 </div>
                 <div className="footer-block">

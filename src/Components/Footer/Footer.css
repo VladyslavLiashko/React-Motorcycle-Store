@@ -10,21 +10,25 @@
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  color: #D3AF37;
+  color: white;
 }
 .footer .footer-main .footer-block p {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  color: #D3AF37;
+  color: white;
 }
 .footer .footer-main .footer-block ul li {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  color: #D3AF37;
+  color: white;
   list-style-type: none;
   margin-top: 20%;
+}
+.footer .footer-main .footer-block ul li:hover {
+  color: #D3AF37;
+  transition: 1s;
 }
 .footer .footer-last {
   display: flex;

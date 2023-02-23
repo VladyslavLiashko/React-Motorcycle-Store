@@ -3,14 +3,41 @@ import "./Item.css";
 
 import items from "../../data/motorcycles";
 import { useParams } from "react-router-dom";
+import { useDispatch } from "react-redux";
 
-const Item = () =>{
+const Item = () => {
+
+
     let { productId } = useParams();
     console.log(productId);
 
     let item = items[productId];
     console.log(item);
-    return(
+
+    function localItem(elem) {
+        localStorage.setItem(`itemImg${productId}`, elem.img)
+        localStorage.setItem(`itemName${productId}`, elem.name)
+        localStorage.setItem(`itemPrice${productId}`, elem.price)
+    }
+
+    // REDUX
+    const dispatch = useDispatch()
+
+    const addNum = () => {
+        dispatch({ type: "ADD_NUM", payload: 1 })
+    }
+    const addItem = () =>{
+        const product ={
+            name: item.name,
+            img: item.img,
+            color: item.color,
+            price: item.price
+        }
+        dispatch({type: "ADD_ITEM",payload:product} )
+        addNum();
+    }
+
+    return (
         <div className="itemCard">
             <div className="img-block">
                 <div className="main-img">
@@ -28,9 +55,8 @@ const Item = () =>{
                 <p className="buy-card-color">{item.color}</p>
                 <p className="buy-card-stock">{item.stock}</p>
                 <p className="buy-card-price">{item.price}</p>
-                <div className="info-card-btns">
-                    <button>Add to shopping card</button>
-                    <button>Add to liked</button>
+                <div className="info-card-btns" onClick={localItem(item)}>
+                    <button onClick={addItem} > Add to shopping card</button>
                 </div>
             </div>
         </div>

@@ -11,14 +11,16 @@
                 font-style: normal;
                 font-weight: 700;
                 font-size: 24px;
-                color: #D3AF37;
+                // color: #D3AF37;
+                color: #ffff;
             }
 
             p {
                 font-style: normal;
                 font-weight: 400;
                 font-size: 20px;
-                color: #D3AF37;
+                // color: #D3AF37;
+                color: #ffff;
             }
 
             ul {
@@ -26,9 +28,14 @@
                     font-style: normal;
                     font-weight: 400;
                     font-size: 20px;
-                    color: #D3AF37;
+                    // color: #D3AF37;
+                    color: #ffff;
                     list-style-type: none;
                     margin-top: 20%;
+                }
+                li:hover{
+                    color: #D3AF37;
+                    transition: 1s;
                 }
             }
         }
@@ -45,6 +52,7 @@
             font-weight: 400;
             font-size: 18px;
             color: #D3AF37;
+            // color: #ffff;
         }
 
         .media {

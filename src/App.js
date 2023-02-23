@@ -14,6 +14,8 @@ import Item from './Components/Item/Item';
 import OurBlog from './Components/Blog/Blog';
 import Contacts from './Components/Contacts/Contacts';
 import Json from "./data/data.json";
+import ShoppingCart from './Components/ShoppingCart/ShoppingCart';
+import { useDispatch, useSelector } from 'react-redux';
 
 // const router = createBrowserRouter([
 //   {
@@ -27,6 +29,7 @@ import Json from "./data/data.json";
 // ]);
 
 function App() {
+
   return (
     <div className="App">
       <Header data = {Json.Header} />
@@ -36,6 +39,7 @@ function App() {
         <Route path='/Motorcycles/:productId' element ={<Item/>} />
         <Route path='/Blog' element ={<OurBlog/>} />
         <Route path = '/Contacts' element={<Contacts data = {Json.Contacts} />} />
+        <Route path='/Shopping-Cart' element={<ShoppingCart/>} />
       </Routes>
       {/* <RouterProvider router={router} /> */}
       <Footer data ={Json.Footer} />

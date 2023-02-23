@@ -81,4 +81,9 @@
   border: none;
   height: 80%;
   width: 40%;
+}
+.itemCard .info-card-block .info-card-btns button:hover {
+  background: #252C33;
+  color: #D3AF37;
+  transition: 1s;
 }/*# sourceMappingURL=Item.css.map */

@@ -83,7 +83,7 @@ const Motorcycles =[
         name: "Yamaha MT-09(2017 - 2020) ",
         brand: "Yamaha",
         state: "used",
-        price: "$8,499 - $9,459 ",
+        price: "$9,459 ",
         color: "Color(s):Metallic Grey/Black/Blue",
         stock: "Stock: 8",
         button: "Details",
