@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+<h1> Motorcycle Store</h1>
+<h2> About </h2> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p> In this project, I made a website for the sale of motorcycles. There is no hardcode in this project, I took all the data and text from the json file (imitation of a response from the server) and passed them through props </p>
 
-## Available Scripts
+<h2> Technologies </h2>
+<ul>
+  <li> HTML5</li>
+  <li> CSS3</li>
+  <li> SCSS</li>
+  <li> Java Script</li>
+  <li> React</li>
+  <li> Redux</li>
+  <li> React Router</li>
+</ul>
 
-In the project directory, you can run:
+<h2>Features</h2>
 
-### `npm start`
+<h3> <b>Login modal page </b> </h3>
+<p>The user can log in by clicking on the "login" button, after thatwill pop up a modal window , where you can enter his data and after he clicks the "submit" button they will be saved, after that user will see the text "now you are logged in"</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div diaplsy ="flex">
+<img src ="./LoginModal.png" width = "49%">
+<img src ="./LoginOk.png" width ="49%">
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
+<h3> <b>Blog page</b> </h3>
+<p>The user can write comments on the "Our Blog" page, if the user is logged in before these, he will write comments on his own name </p>
+<img src ="./Blog.png">
 
-### `npm test`
+<br>
+<h3> <b>Motorcycles Page </b> </h3>
+<p>If you click on the "Motorcycles" page, you will be redirected to the page where the entire range of products is located </p>
+<img src ="./MotorcyclesPage.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
+<h3> <b>Search</b> </h3>
+<p>If the user wants to search for a specific motorcycle, he just needs to enter the first letters of the name of the motorcycle, and he will be given all the motorcycles that have such letters in the name </p>
+<img src ="./Search.png">
 
-### `npm run build`
+<br>
+<h3> <b>More info about motorcycle</b> </h3>
+<p>The user can click on the motorcycle he is interested in and see detailed information about it (this was done using react-router)</p>
+<img src ="./MotorcycleInfo.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
+<h3> <b>Add motorcycle to shopping cart</b> </h3>
+<p>The user can add a motorcycle to the shopping cart by clicking on the "add to shopping cart" button, after that the number of products near the cart icon will change and the product will be added to the cart (this was done using Redux)</p>
+<img src ="./BucketNumber.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+<h3> <b>Shopping cart</b> </h3>
+<p>The user can view his cart of goods by clicking on the yellow cart icon, inside will be all the goods that he added <br>
+P.S. after reloading the page, the selected motorcycles will not be saved</p>
+<img src ="./Bucket.png">

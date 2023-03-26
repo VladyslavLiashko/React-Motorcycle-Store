@@ -3,13 +3,13 @@ import { useNavigate } from "react-router-dom";
 import "./ProductCard.css";
 
 
-const ProductCard = (props) =>{
+const ProductCard = (props) => {
     const navigate = useNavigate();
 
-    let showItem = () =>{
+    let showItem = () => {
         navigate(`/Motorcycles/${props.data.id}`)
     }
-    return(
+    return (
         <div className="productCard">
             <div className="productCard-wrapper">
                 <div className="productCard-img">
